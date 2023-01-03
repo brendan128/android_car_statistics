@@ -1,0 +1,38 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="EULA accept" >
+        <CheckBoxPreference
+            android:key="checkbox_preference_eula"
+            android:summary="The terms of service shown at the beginning"
+            android:title="Did you accept the EULA?" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="live View settings" >
+<!--         <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/numberOptions"
+            android:entryValues="@array/numberValues"
+            android:key="number_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="Number"
+             /> -->
+        
+        <Preference android:title="Delete all the recordings?"
+                android:key="button"
+                android:summary="This button will ask to delete all records"/>
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Main List settings" >
+        <MultiSelectListPreference
+            android:key="number_checked"
+            android:title="Number of screens"
+            android:defaultValue="@array/empty_array"
+            android:dialogTitle="Number"
+            android:entries="@array/numberOptions"
+            android:entryValues="@array/numberValues"
+            android:summary=""/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

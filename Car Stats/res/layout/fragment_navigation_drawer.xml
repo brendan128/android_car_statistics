@@ -1,0 +1,12 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263604"
+    android:choiceMode="singleChoice"
+  android:divider="#000"
+    android:dividerHeight="0dp"
+    tools:context="com.bkapps.carapp.NavigationDrawerFragment" />
+
+  <!--   android:divider="@android:color/transparent" -->
+

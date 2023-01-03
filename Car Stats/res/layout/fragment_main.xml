@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:orientation="vertical"
+    tools:context="com.bkapps.carapp.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/tv_record_trip_see"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Record a trip to see it here.."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="78dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_live"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:drawableTop="@drawable/ic_action_play"
+            android:text="Live" />
+
+        <Button
+            android:id="@+id/button_record"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:drawableTop="@drawable/ic_action_record"
+            android:focusable="false"
+            android:text="Record" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="Home_drawer_array">
+        <item>Home</item>
+        <item>Summary</item>
+        <item>New Fuel</item>
+        <item>Fuel List</item>
+        <item>Map List</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. It can\'t work</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect to Car OBD</string>
+    <string name="secure_stop">Stop Connection</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="app_name">Car Stats</string>
+    <string name="title_section1">RPM</string>
+    <string name="title_section2">SPEED</string>
+    <string name="title_section3">TEMP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="pick_array">
+        <item>Send KML to Drive</item>
+        <item>Send JSON to Drive</item>
+        <item>Send GeoJSON to Drive</item>
+        <item>Delete</item>
+        <item>Kml to Google Earth</item>
+    </string-array>
+    <string-array name="pick_array_view">
+        <item>RPM</item>
+        <item>Speed</item>
+        <item>Temp</item>
+    </string-array>
+    <string-array name="empty_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="numberOptions">
+        <item>RPM</item>
+        <item>Speed</item>
+        <item>Temp</item>
+    </string-array>
+    <string-array name="numberValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="record_frequency_array">
+        <item>2 sec</item>
+        <item>3 sec</item>
+        <item>5 sec</item>
+        <item>8 sec</item>
+        <item>10 sec</item>
+        <item>20 sec</item>
+    </string-array>
+
+    <string name="title_details">Details</string>
+    <string name="title_map">Map</string>
+    <string name="title_chart">Chart</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="generic_no" translation_description="The text on a button to say no.">    No</string>
+    <string name="generic_yes" translation_description="The text on a button to say yes.">    Yes</string>
+    <string name="generic_cancel" translation_description="The text on a button to say yes.">    Cancel</string>
+    <string name="generic_progress_title" translation_description="The title on a progress dialog asking the user to wait.">    Please wait&#8230;</string>
+    <string name="menu_help_eula" translation_description="In the menu, to go to the terms of service page.
+      Character limit: ~20 (1 line)">    Terms of service</string>
+    <string name="generic_ok" translation_description="The text on a button to say ok.">    OK</string>
+    <string name="eula_decline" translation_description="In the &apos;Terms of Service&apos; dialog, the button to decline.">    Decline</string>
+    <string name="eula_accept" translation_description="In the &apos;Terms of Service&apos; dialog, the button to accept.">    Accept</string>
+    <string name="eula_date" translation_description="The date in the &apos;Terms of Service&apos;. See
+      http://m.google.com/toscountry.">    June 21, 2014</string>
+    <string name="eula_body" translation_description="The body in the &apos;Terms of Service. See http://m.google.com/toscountry.
+      %1$s host name, &apos;m.google.com&apos;">Just a few things before we start. \n
+\n
+1. This app is still in testing. There may be some unexpected behaviour/crashing! It is a work in progress\n
+2. Please DO NOT use whilst driving!\n
+3. All information gathered is entirely for your own use.\n
+4. This app requires a ELM327 Bluetooth device to utilise all its features
+5. Also I have to say the following.. \n\n
+  BY USING THE SOFTWARE, YOU ARE ACCEPTING THE SOFTWARE \&quot;AS IS\&quot; AND AGREEING THAT IN NO EVENT WILL THE AUTHOR BE HELD LIABLE FOR ANY DAMASES ARISING FROM THE USE OF THIS SOFTWARE.
+IF YOU DO NOT WISH TO DO SO, DO NOT USE THE SOFTWARE.   </string>
+    <string name="eula_footer" translation_description="The footer ">    More information about this app is available on the Google Play store</string>
+    <string name="eula_copyright_year" translation_description="The copyright year"> </string>    <!-- \u00A92014</string> -->
+    <string name="title_activity_record">Record</string>
+
+    <!-- User interface labels and strings -->
+
+
+    <!-- Address format -->
+    <!-- <string name="address_output_string">%1$s %2$s %3$s</string> -->
+    <string name="address_output_string">%1$s %2$s</string>
+
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+
+    <!-- Labels -->
+    <string name="latlng">Lat/Long:</string>
+    <string name="address">Address:</string>
+
+    <!-- Messages -->
+    <string name="connected">Client connected</string>
+    <string name="connection_error_code_unknown">Unknown connection error code:  %1$d</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="get_address">Get Address</string>
+    <string name="get_location">Get Location</string>
+    <string name="illegal_argument_exception">        Illegal arguments: Latitude %1$.8f Longitude %2$.8f</string>
+    <string name="invalid_action">Invalid intent action %1$s</string>
+    <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail">        Location update error. code %1$d message %2$s</string>
+    <string name="location_update_missing_update">        Location update error. No incoming location.</string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: %1$s</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="request_location_updates_in_progress">        Can\'t request location updates, previous request hasn\'t finished</string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">        Received an unknown activity request code %1$d in onActivityResult.</string>
+    <string name="title_activity_live">Live View</string>
+    <string name="title_activity_view">Trip </string>
+    <string name="title_activity_send_drive">Send To Drive</string>
+    <string name="title_activity_splash">Car Stats</string>
+
+</resources>

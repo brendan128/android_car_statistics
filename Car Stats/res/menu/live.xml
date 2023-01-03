@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.brendan.carapp.LiveActivity" >
+
+    <item
+        android:id="@+id/secure_connect_scan"
+        android:icon="@drawable/ic_action_play"
+        android:showAsAction="ifRoom"
+        android:title="@string/secure_connect"/>
+    <!--
+         <item android:id="@+id/insecure_connect_scan"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/insecure_connect"
+          android:showAsAction="never|withText" />
+    -->
+    <item
+        android:id="@+id/stop_connect_scan"
+        android:icon="@drawable/ic_action_stop"
+        android:showAsAction="ifRoom"
+        android:title="@string/secure_stop"/>
+    <item
+        android:id="@+id/discoverable"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:showAsAction="never"
+        android:title="@string/discoverable"/>
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
